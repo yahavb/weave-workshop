@@ -74,8 +74,6 @@ spec:
         app: multiplayersample
     spec:
       serviceAccountName: gs-terminator
-      nodeSelector:
-        alpha.eksctl.io/nodegroup-name: mixed-instances-1
       containers:
       - name: multiplayersample
         image: 356566070122.dkr.ecr.us-west-2.amazonaws.com/multiplayersample-build
